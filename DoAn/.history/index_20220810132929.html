@@ -1,0 +1,676 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/87794f3760.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <script src="./main.js"></script>
+
+    <div class="main">
+        <div class="header">
+            <div class="header-top">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="box"></div>
+                <input onclick="myFunction()" type="text" placeholder="Tìm sản phẩm">
+                <div id="myDIV">
+                    <div class="my-item">
+                        <div class="myDIV-left">
+                            <h4>TÌM KIẾM PHỔ BIẾN</h4>
+                            <p>daniel wellington</p>
+                            <p>casio mtp</p>
+                        </div>
+
+                        <div class="myDIV-right">
+                            <h4>SẢN PHẨM</h4>
+                            <p>Bắt đầu gõ cho kết quả tìm kiếm</p>
+                        </div>
+                    </div>
+
+                </div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="header-bottom">
+                <div class="header-bottom-item">
+                    <img src="./assets/imgs/logo-header.webp" alt="">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="">THƯƠNG HIỆU</a></li>
+                            <li><a href="">NAM</a></li>
+                            <li><a href="">NỮ</a></li>
+                            <li><a href="">CẶP ĐÔI</a></li>
+                            <li><a href="">TRANG SỨC</a></li>
+                            <li><a href="">PHỤ KIỆN</a></li>
+                            <li class="nav-item"><a href="">DỊCH VỤ</a></li>
+                            <li><a href="">LIÊN HỆ</a></li>
+                            <li><a href="">KINH NGHIỆM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-picture">
+                <a href=""><img src="./assets/imgs/slide/img slide.jpg" alt=""></a>
+            </div>
+            <div class="slide-item">
+                <img src="./assets/imgs/slide/slide1.webp" alt="">
+                <img src="./assets/imgs/slide/slide2.webp" alt="">
+                <img src="./assets/imgs/slide/slide3.webp" alt="">
+                <img src="./assets/imgs/slide/slide4.webp" alt="">
+                <img src="./assets/imgs/slide/slide5.webp" alt="">
+                <img src="./assets/imgs/slide/slide6.webp" alt="">
+                <img src="./assets/imgs/slide/slide7.webp" alt="">
+                <img src="./assets/imgs/slide/slide8.webp" alt="">
+                <img src="./assets/imgs/slide/slide8.webp" alt="">
+            </div>
+        </div>
+        <div class="collection">
+            <div class="collection-top">
+
+                <div class="collection-left">
+                    <img src="./assets/imgs/collection/cl-left.jpg" alt="">
+                </div>
+
+                <div class="collection-right">
+                    <img src="./assets/imgs/collection/nam-r.webp" alt="">
+                    <img src="./assets/imgs/collection/nu-r.webp" alt="">
+                    <img src="./assets/imgs/collection/couple-r.webp" alt="">
+                    <img src="./assets/imgs/collection/child-r.webp" alt="">
+                </div>
+            </div>
+            <div class="collection-bottom">
+                <img src="./assets/imgs/collection/cl-bt1.webp" alt="">
+                <img src="./assets/imgs/collection/cl-bt2.webp" alt="">
+                <img src="./assets/imgs/collection/cl-bt3.webp" alt="">
+            </div>
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label">ĐỒNG HỒ NAM BÁN CHẠY</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product">
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h1.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Casio AE-1200WHD-1AVDF – Nam – Kính Nhựa – Quartz (Pin) – Dây Kim Loại </a>
+                    <img src="./assets/imgs/4sao.png" alt="">
+                    <small>1.308.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h2.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Casio MTP-1302D-7A1VDF – Nam – Quartz (Pin) – Dây Kim Loại </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>1.283.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h3.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Citizen AK5003-05A – Nam – Quartz (Pin) – Dây Da </a>
+                    <small>3.740.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h4.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Longines L4.805.4.11.6 – Nam – Kính Sapphire – Automatic (Tự Động) – Dây Kim Loại </a>
+                    <small>38.060.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h5.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Orient SK RA-AA0B02R19B – Nam – Automatic – Máy Nhật, Trữ Cót 40 Giờ, Mặt Số 41mm </a>
+                    <img src="./assets/imgs/4sao.png" alt="">
+                    <small>7.800.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h6.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Tissot T006.407.16.033.00 – Nam – Kính Sapphire – Automatic (Tự Động) – Dây Da </a>
+                    <img src="./assets/imgs/4sao.png" alt="">
+                    <small>15.750.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/h7.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Tissot T109.410.16.033.00 – Nam – Kính Sapphire – Quartz (Pin) – Dây Da </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.920.000 ₫</small>
+                </div>
+            </div>
+
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label">ĐỒNG HỒ NỮ BÁN CHẠY</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product">
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n1.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Casio B640WCG-5DF – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 35mm </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>2.073.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n2.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100163 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <small>4.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n3.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100437 – BST Quadro – Nữ – Quartz – Kính Cứng, Siêu Mỏng, Mặt Số
+                        26mm </a>
+                    <small>4.300.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n4.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Doxa D150RWH – Nữ – Kính Sapphire – Quartz (Pin) – Dây Kim Loại </a>
+                    <img src="./assets/imgs/4sao.png" alt="">
+                    <small>20.180.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n5.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Saga 53555 SVMWSV-2 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 22.5mm </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.244.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n6.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Saga 53766 SVSVSV-2 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 39mm </a>
+                    <small>7.520.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/n7.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Tissot T109.210.33.031.00 – Nữ – Kính Sapphire – Quartz (Pin) – Dây Kim Loại </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>7.610.000 ₫</small>
+                </div>
+            </div>
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label">TRANG SỨC BÁN CHẠY</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product">
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts1.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Dây Chuyền Daniel Wellington DW00400153 </a>
+                    <small>980.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts2.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Bông Tai Sokolov 94022005 Bằng Bạc 925 Đính 2 Viên Đá CZ </a>
+                    <small>1.230.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts3.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Bông Tai Sokolov 94023937 Bằng Bạc 925 Đính 2 Viên Đá CZ </a>
+                    <small>1.810.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts4.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400010 – Size 155mm </a>
+                    <small>1.850.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts5.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Dây Chuyền Daniel Wellington DW00400153 </a>
+                    <small>2.300.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts6.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Dây Chuyền Saga 53585 RGPK-XL </a>
+                    <small>2.392.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts7.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Vòng Tay Saga 00137 SVBL-SZ Đính Đá Swarovski </a>
+                    <small>3.002.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/ts8.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Vòng Tay Sokolov 93050181-18 Size 18 Bằng Bạc 925 Đính 1 Mảnh Pha Lê Swarovski </a>
+                    <small>2.670.000 ₫</small>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-picture">
+                <a href=""><img src="./assets/imgs/slide/img slide2.jpg" alt=""></a>
+            </div>
+
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label lable">THƯƠNG HIỆU NỔI TIẾNG</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product2">
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l1.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l2.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l3.webp" alt="">
+            </div>
+
+            <div class="product-item-2 ">
+                <img src="./assets/imgs/logo/l4.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l5.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l6.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l7.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l8.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l9.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l10.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l11.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/l12.webp" alt="">
+            </div>
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label lable">THƯƠNG HIỆU THỤY SỸ</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product2">
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg1.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg2.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg3.webp" alt="">
+            </div>
+
+            <div class="product-item-2 ">
+                <img src="./assets/imgs/logo/lg4.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg5.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg6.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg7.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg8.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg9.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg10.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg11.webp" alt="">
+            </div>
+
+            <div class="product-item-2">
+                <img src="./assets/imgs/logo/lg12.webp" alt="">
+            </div>
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label">NEW WATCHES</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="product ">
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/nw1.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Longines L4.860.4.12.6 – Nam – Kính Sapphire – Automatic (Tự Động) – Dây Kim Loại – Mặt
+                        Số 35mm </a>
+                    <small>35.796.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/nw2.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Seiko SRPG29K1 – Nam – Automatic (Tự Động) – Dây Kim Loại – Mặt Số 39.4mmZ </a>
+                    <small>7.075.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/nw3.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Seiko SRPG35K1 – Nam – Automatic (Tự Động) – Dây Vải – Mặt Số 39.4mm </a>
+                    <small>7.075.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/product/nw4.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Seiko SRPG33K1 – Nam – Automatic (Tự Động) – Dây Vải – Mặt Số 39.4mm</a>
+                    <small>7.075.000 ₫</small>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 80%;
+        margin: 0 auto;
+        height: 1px;
+        border-bottom: 1px solid #ddd;">
+        <div class="news">
+            <div class="news-left">
+                <div class="subheadline">
+                    <div class="subheadline-deco-line"></div>
+                    <div class="subheadline-label ">TIN TỨC HAY VỀ ĐỒNG HỒ</div>
+                    <div class="subheadline-deco-line"></div>
+                </div>
+                <div class="news-content">
+                    <img src="./assets/imgs/news.webp" alt="">
+                    <div class="content-left">
+                        <a href=""> ĐÁ MÃ NÃO LÀ GÌ, CÓ MẤY MÀU, TÁC DỤNG, GIÁ BAO NHIÊU? </a>
+                        <p>Posted on 30/07/2022 at 9:17 sáng by Đồng Hồ Hải Triều</p>
+                        <p>Một trong những chất liệu tạo nên trang sức được ai nấy đều quan tâm
+                            chính là đá mã não. Sở hữu nhiều màu sắc độc đáo và tác dụng của đá mã
+                            não tác động tích cực đến người dùng mà loại đá này được ứng dụng trong
+                            cuộc sống thường ngày. MỤC LỤC › Tìm hiểu tất tần tật về đá mã…
+                        </p>
+                        <button>READ MORE</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="new-right">
+                <div class="subheadline">
+                    <div class="subheadline-deco-line2"></div>
+                    <div class="subheadline-label2 ">CÓ THỂ BẠN SẼ THÍCH</div>
+                    <div class="subheadline-deco-line2"></div>
+                </div>
+                <div class="news-content">
+                    <div class="new-content-body">
+
+                        <ul>
+                            <li><a href="">15 mẫu đồng hồ cơ automatic giá rẻ nhất | Bảo hành 5 năm</a></li>
+                            <li><a href="">TOP đồng hồ Casio World Time đẹp, giá và cách sử dụng</a></li>
+                            <li><a href="">Hãng xe BMW của nước nào sản xuất? Có tốt không? Giá bán</a></li>
+                            <li><a href="">10 mẹo mua ở chợ tốt đồng hồ, bán đồng hồ cũ chợ Tốt</a></li>
+                            <li><a href="">Cung Thiên Yết (23/10 – 22/11) hợp với cung nào, màu gì, tính cách</a></li>
+                            <li><a href="">Đồng hồ Nhật bãi là gì? 9 hãng đồng hồ Nhật cũ tốt nhất</a></li>
+                            <li><a href="">Ý nghĩa đá Ruby đỏ, hồng, xanh tự nhiên trong phong thủy</a></li>
+                            <li><a href="">Mắt trái giật ở nam, nữ là điềm gì? Hên hay Xui?</a></li>
+                            <li><a href="">Nhẫn Calvin Klein (CK) làm bằng gì, giá bao nhiêu, có tốt không?</a></li>
+                            <li><a href="">10 thương hiệu đồng hồ quốc tế, bán chạy nhất tại Việt Nam</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label lable">KHÁCH HÀNG CỦA CHÚNG TÔI</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+        <div class="link">
+            <img src="./assets/imgs/link/l1.webp" alt="">
+            <img src="./assets/imgs/link/l2.webp" alt="">
+            <img src="./assets/imgs/link/l3.webp" alt="">
+            <img src="./assets/imgs/link/l4.webp" alt="">
+            <img src="./assets/imgs/link/l5.webp" alt="">
+            <img src="./assets/imgs/link/l6.webp" alt="">
+            <img src="./assets/imgs/link/l7.webp" alt="">
+            <img src="./assets/imgs/link/l8.webp" alt="">
+        </div>
+        <div class="social">
+            <p>SOCIAL PAGE:</p>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        <div class="footer">
+            <div class="top">
+                <div class="footer-top">
+                    <div class="top-item">
+                        <img src="./assets/imgs/footer/ft-hotline.webp" alt="">
+                    </div>
+                    <div class="top-item">
+                        <h3>HƯỚNG DẪN</h3>
+                        <ul>
+                            <li><a href="">Thông Tin Liên Hệ</a></li>
+                            <li><a href="">Hỏi Đáp - Góp Ý</a></li>
+                            <li><a href="">Chính Sách Đổi Hàng</a></li>
+                            <li><a href="">Chính Sách Bảo Hành</a></li>
+                            <li><a href="">Thanh toán & Trả góp</a></li>
+                            <li><a href="">Liên Hệ Đối Tác Doanh Nghiệp</a></li>
+                            <li><a href="">Vận Chuyển & Giao Nhận</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-item">
+                        <h3>THAM KHẢO</h3>
+                        <ul>
+                            <li><a href="">Thông Báo Mới</a></li>
+                            <li><a href="">Điều Khoản Sử Dụng</a></li>
+                            <li><a href="">Bảo Mật Thông Tin</a></li>
+                            <li><a href="">Ngưng Hiện Quảng Cáo</a></li>
+                        </ul>
+                        <img src="./assets/imgs/footer/ft-congthuong.webp" alt="">
+                    </div>
+                    <div class="top-item legit">
+                        <h3>CHỨNG NHẬN</h3>
+                        <img src="./assets/imgs/footer/ft-ac1.webp" alt="">
+                        <img src="./assets/imgs/footer/ft-ac2.webp" alt="">
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <ul>
+                        <li><a href="">TÌM VỊ TRÍ SHOWROOM (24 SHOP)</a></li>
+                        <li><a href="">Trung Tâm Bảo Hành</a></li>
+                        <li><a href="">TP.HCM</a></li>
+                        <li><a href="">HÀ NỘI</a></li>
+                        <li><a href="">ĐÀ NẴNG</a></li>
+                        <li><a href="">BIÊN HÒA - BÌNH DƯƠNG</a></li>
+                        <li><a href="">VŨNG TÀU</a></li>
+                        <li><a href="">CẦN THƠ</a></li>
+                        <li><a href="">LONG XUYÊN</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <p>Copyright by Đồng Hồ Hải Triều® Since 1991Z</p>
+                        <p>Chủ sở hữu Website: Đặng Thanh Hải - Số: 41A8034825 - Ngày Cấp: 01/04/2014</p>
+                        <small>Góp ý & Khiếu nại: ceo@donghohaitrieu.com</small>
+                    </div>
+
+                    <div class="footer-bottom-right">
+                        <img src="./assets/imgs/footer/ft-bt.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="topBtn"><i class="fa-solid fa-chevron-up"></i></button>
+
+
+</body>
+
+</html>

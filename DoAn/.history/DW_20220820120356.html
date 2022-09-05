@@ -1,0 +1,685 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/87794f3760.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/DW.css">
+</head>
+
+<body>
+    <script src="./main.js"></script>
+    <div class="main">
+        <div class="header">
+            <div class="header-top">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="box"></div>
+                <input onclick="myFunction()" type="text" placeholder="Tìm sản phẩm">
+                <div id="myDIV">
+                    <div class="my-item">
+                        <div class="myDIV-left">
+                            <h4>TÌM KIẾM PHỔ BIẾN</h4>
+                            <ul>
+                                <li> <b>daniel wellington</b></li>
+                                <li> <b>casio mtp</b></li>
+                            </ul>
+                        </div>
+
+                        <div class="myDIV-right">
+                            <h4>SẢN PHẨM</h4>
+                            <p>Bắt đầu gõ cho kết quả tìm kiếm</p>
+                        </div>
+                    </div>
+
+                </div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="header-bottom">
+                <div class="header-bottom-item">
+                    <img src="./assets/imgs/logo-header.webp" alt="">
+                    <div class="nav">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="">THƯƠNG HIỆU </a>
+                                <div class="menu-child">
+                                    <div class="menu-child-item">
+                                        <h4>CÁC HÃNG BÁN CHẠY</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Daniel Wellington</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Seiko</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Saga</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Sokolov</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Casio</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Citizen</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Orient</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>OP</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>KHUYÊN DÙNG</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Daniel Wellington</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>G-Shock</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Baby-G</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Fossil</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Skagen</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Michael </li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Candino</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>SR Watch</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>CÁC DÒNG ĐẶC BIỆT</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Limited Edition</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Quân Đội</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Điện Tử</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Đính Kim Cương</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Xà Cừ</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Trẻ Em</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>SWISS MADE (THỤY SỸ)</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Longines</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Doxa</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Tissot</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Rado</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Movado</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Frederique Constant</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>#</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Calvin Klein</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Bulova</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Claude Bernard</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Mido</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </li>
+                            <li class="menu-item">
+                                <a href="">NAM</a>
+                                <div class="menu-child">
+                                    <div class="menu-child-item">
+                                        <h4>KHOẢNG GIÁ</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dưới 2tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>2tr-3tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>3tr-4tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 5tr</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>CHẤT LIỆU DÂY</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Kim Loại</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Da</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Nhựa/ Cao Su</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Titanium</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Vải</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>THƯƠNG HIỆU HOT</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Casio</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Citizen</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Doxa</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Seiko</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Tissot</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>SWISS MADE (THỤY SỸ)</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Doxa</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Longines</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Movado</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Frederique Constant</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Calvin Klein</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>CÁC DÒNG ĐẶC BIỆT</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Siêu Mỏng</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Đính Kim Cương</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Lộ Máy(Skeleton)</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Vàng 18k</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Đồng Hồ Phiên Bản Giới Hạn</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">NỮ</a>
+                                <div class="menu-child">
+                                    <div class="menu-child-item">
+                                        <h4>KHOẢNG GIÁ</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dưới 2tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>2tr-3tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>3tr-4tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 5tr</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>CHẤT LIỆU DÂY</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Kim Loại</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Da</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Nhựa/ Cao Su</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Titanium</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Vải</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>THƯƠNG HIỆU HOT</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Saga</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Sokolov</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Casio</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Citizen</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Doxa</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <img src="./assets/imgs/nav1.webp" alt="">
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-item"><a href="">
+                                    CẶP ĐÔI</a>
+                                <div class="menu-child">
+                                    <div class="menu-child-item">
+                                        <h4>KHOẢNG GIÁ</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dưới 2tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>2tr-3tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>3tr-4tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 4tr-5tr</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Trên 5tr</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>CHẤT LIỆU DÂY</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Kim Loại</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Da</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Nhựa/ Cao Su</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Titanium</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Dây Vải</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <h4>THƯƠNG HIỆU HOT</h4>
+                                        <ul class="menu-child-list">
+                                            <li><i class="fa-solid fa-angle-right"></i>Casio</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Citizen</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Seiko</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>G-Shock & Baby-G</li>
+                                            <li><i class="fa-solid fa-angle-right"></i>Skagen</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-child-item">
+                                        <img src="./assets/imgs/nav2.webp" alt="">
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">TRANG SỨC</a>
+                                <ul class="subnav">
+                                    <li><a href="">Nhẫn</a></li>
+                                    <li><a href="">Dây Chuyền</a></li>
+                                    <li><a href="">Vòng Tay, Lắc Tay</a></li>
+                                    <li><a href="">Bông Tai (Hoa Tai)</a></li>
+                                    <li><a href="">Mặt Dây Chuyền</a></li>
+                                    <li><a href="">Vòng Charm</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">PHỤ KIỆN</a>
+                                <ul class="subnav">
+                                    <li><a href="">Dây Da Đồng Hồ <i class="fa-solid fa-angle-right"></i></a></li>
+                                    <li><a href="">Dây Da Kim Loại</a></li>
+                                    <li><a href="">Khóa Bướm</a></li>
+                                    <li><a href="">Hộp Xoay</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="">DỊCH VỤ</a>
+                                <ul class="subnav">
+                                    <li><a href="">Bảo Hành-Sửa Chữa</a></li>
+                                    <li><a href="">In Logo Lên Đồng Hồ</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">LIÊN HỆ</a>
+                                <ul class="subnav">
+                                    <li><a href="">Giới Thiệu Hải Triều</a></li>
+                                    <li><a href="">Tin Tức Hải Triều</a></li>
+                                    <li><a href="">Thông Tin Liên Hệ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">KINH NGHIỆM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <h2>DANIEL WELLINGTON (DW)</h2>
+            <small>Trang Chủ / Brands / Daniel Wellington (DW)</small>
+            <img src="./assets/imgs/img_DW/banner-DW-thang-4.webp" alt="">
+            <div class="content">
+
+                <p> <i>“Chào đời vào năm 2011 nhưng đến nay đồng hồ Daniel Wellington chính hãng đã tạo nên một cơn sốt
+                        và
+                        trào
+                        lưu mới dành giới trẻ (cả nam và nữ) trên toàn thế giới. Mỗi chiếc đồng hồ Daniel Wellington
+                        chính
+                        hãng
+                        ra đời đó là một nét đẹp và một phong cách mới mà những người đứng đầu thường hiệu này muốn dành
+                        tặng
+                        cho những tín đồ của họ, điều này cũng giống như một nút nhạc giao hưởng tạo nên những cung bật
+                        muôn
+                        màu
+                        cho người nghe. Nếu bạn chưa sở hữu chiếc đồng hồ DW chính hãng hãy trải nghiệm “cảm giác” đó
+                        ngay
+                        tại
+                        đây… “
+                    </i>
+                </p>
+            </div>
+        </div>
+        <div class="customer">
+            <img src="./assets/imgs/img_DW/men.webp" alt="">
+            <img src="./assets/imgs/img_DW/women.webp" alt="">
+            <img src="./assets/imgs/img_DW/couple.webp" alt="">
+        </div>
+
+        <div class="tqd-subheadline">
+            <div class="tqd-subheadline-deco-line"></div>
+            <div class="tqd-subheadline-label">BỘ SƯU TẬP</div>
+            <div class="tqd-subheadline-deco-line"></div>
+        </div>
+
+        <div class="collector">
+            <div class="collector-top">
+                <img src="./assets/imgs/img_DW/collector/t1.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/t2.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/t3.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/t4.webp" alt="">
+            </div>
+
+            <div class="collector-bottom">
+                <img src="./assets/imgs/img_DW/collector/b1.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/b2.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/b3.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/b4.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/b5.webp" alt="">
+                <img src="./assets/imgs/img_DW/collector/b6.webp" alt="">
+            </div>
+            <div class="tqd-subheadline2">
+                <div class="tqd-subheadline-deco-line2"></div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i1.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">DW ICONIC MOTION DW00100425 – NAM – QUARTZ (PIN) – DÂY CAO SU – MẶT SỐ 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>6.350.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i2.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100161 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>4.650.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i3.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100007 – Nam – Quartz (Pin) – Dây Da – Mặt Số 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i4.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100482 – Nam – Kính Sapphire – Automatic (Tự Động) – Dây Kim Loại –
+                        Mặt Số 40mm </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>9.700.000 ₫</small>
+                </div>
+            </div>
+
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i5.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Nhẫn Daniel Wellington DW00400091 </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>1.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i6.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100319 – Nữ – Quartz (Pin) – Dây Vải – Mặt Số 28mm </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>3.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i7.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100245 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 28MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>4.000.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i8.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100149 – Nam – Quartz (Pin) – Dây Vải – Mặt Số 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>4.850.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i9.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100129 – Nam – Quartz (Pin) – Dây Da – Mặt Số 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i10.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100039 – Nữ – Quartz (Pin) – Dây Da – Mặt Số 36MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i11.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100005 – Nam – Quartz (Pin) – Dây Vải – Mặt Số 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>4.850.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i12.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100134 – Nam – Quartz (Pin) – Dây Da – Mặt Số 40MM </a>
+                    <img src="./assets/imgs/5sao.png" alt="">
+                    <small>5.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i13.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100164 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <small>4.650.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i14.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100212 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <small>5.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i15.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100307 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 36MM </a>
+                    <small>4.850.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i16.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100403 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 28MM </a>
+                    <small>5.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i17.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100476 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 28MM </a>
+                    <small>4.650.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i18.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100471 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <small>5.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i19.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100477 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 32MM </a>
+                    <small>5.100.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i20.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400001 – Size 185mm </a>
+                    <small>1.500.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i21.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400001 – Size 185mm </a>
+                    <small>1.500.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i22.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Nhẫn Daniel Wellington DW00400061 </a>
+                    <small>1.250.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i23.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400001 – Size 185mm </a>
+                    <small>1.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i24.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400142 – Size 185mm</a>
+                    <small>1.900.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i25.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Còng Tay Daniel Wellington DW00400074 – Size 185mm</a>
+                    <small>1.500.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i26.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100510 – Nữ – Quartz (Pin) – Dây Kim Loại – Mặt Số 22MM</a>
+                    <small>5.300.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i27.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">CDaniel Wellington DW00100509 – Nữ – Quartz (Pin) – Dây Vải – Mặt Số 22MM</a>
+                    <small>4.450.000 ₫</small>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="item-img">
+                    <img src="./assets/imgs/img_DW/product/i28.webp" alt="">
+
+                </div>
+                <div class="item-content">
+                    <a href="">Daniel Wellington DW00100508 – Nữ – Quartz (Pin) – Dây Da – Mặt Số 22MM</a>
+                    <small>4.850.000 ₫</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
